@@ -365,8 +365,40 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
+
+.skill-mf  {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+
+.skill-mf span {
+  color: #4e4e4e;
+}
+.skill-mf .progress {
+  background-color: #cde1f8;
+  margin: 0.5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: 0.7rem;
+}
+.skill-mf .progress .progress-bar {
+  height: 0.7rem;
+  background-color: #0078ff;
+}
+
+.skills .content ul {
+  list-style: none;
+  padding: 0;
+}
+.skills .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+}
+/* OLD CSS 
 .skills .progress {
   height: 60px;
   display: block;
@@ -395,7 +427,7 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Resume
