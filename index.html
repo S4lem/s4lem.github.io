@@ -55,8 +55,8 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero"  class="nav-link scrollto"><i class="bx bx-home"></i> <span>Accueil   </span></a></li>
-          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>A propos  </span></a></li>
+          <li><a href="#hero"  class="nav-link scrollto"><i class="bx bx-home"></i> <span>Accueil</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>A propos<span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Expériences</span></a></li>
           <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Compétences techniques</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contacts</span></a></li>
@@ -69,7 +69,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Salem Ben Mabrouk</h1>
-      <p>Je suis <span class="typed" data-typed-items="Développeur Back-End, Architecte Cloud AWS, Freelance, En train d'apprendre le Front-End"></span></p>
+      <p>Je suis <span class="typed" data-typed-items="Développeur Back-End, Développeur Cloud AWS, Ingénieur DevOps"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -81,18 +81,16 @@
 
         <div class="section-title">
           <h2>Résumé</h2>
-          <p>Bonjour et bienvenue sur mon portfolio ! </p>
-
-          <p> 
-            Vous trouverez sur cette page les détails de mes expériences depuis mes débuts.
-
-            Ingénieur diplômé de l’ESILV en 2018, je me suis spécialisé dans le développement back-end en Python.
-            A travers mes missions, je développe principalement en Python.
-            Je suis quelqu'un qui adore monter en compétences sur les nouvelles technologies et qui entretient régulièrement sa veille technologique.
-
+          <p>Bonjour et bienvenue sur mon portfolio !
+            Vous trouverez sur cette page les détails de mes expériences depuis mes débuts professionnels. 
+          </p>
+          <p>
+            Ingénieur diplômé de l’ESILV en 2018, je me suis spécialisé dans le développement Back-End.
+            A travers mes missions, je développe principalement en Python, cependant je ne suis pas fermé à ce langage.
+            J'adore monter en compétences sur les nouvelles technologies et entretient régulièrement ma veille technologique.
             Depuis que j'ai découvert les architectures serverless lors d'une de mes missions je développe mes apps persos avec ce concept.
             
-            Je suis ouvert à toute mission à dominante Back-End, avec idéalement une composante cloud ou infra / devops. 
+            Je suis ouvert à toute mission à dominante Back-End, avec idéalement une composante Cloud. 
             </p>
 
           <p> Bonne visite !</p>
@@ -112,10 +110,12 @@
             <h3 class="resume-title">Expériences professionnelles</h3>
             <div class="resume-item">
               <h4>Développeur Back-End Python</h4>
-              <h5>Novembre 2021 - Present</h5>
+              <h5>Novembre 2021 - Aujourd'hui</h5>
               <p><em>Renault - Guyancourt</em></p>
               <p>Au sein de l'équipe R&D Resim ADAS de Renault, j'ai été chargé de poursuivre le développement et la maintenance des services existants.
-                Nos services permettent la resimulation virtuelle de milliers de kilomètres de roulage dans l'objectif de développer les voitures autonomes.
+                L'équipe Resim ADAS se charge de la resimulation virtuelle de milliers de kilomètres de données de roulage. 
+                Ces resimulations impliquent des traitements sur de milliers de To de données. L'objectif final est d'améliorer le comportement des voitures autonomes. 
+                Ces calculs sont répartis dans un réseaux de plusieurs dizaines de HPC. 
               </p>
               <ul>
                 <li>
@@ -125,7 +125,24 @@
                     <li>Réécriture de la représentation graphique du logiciel avec Tkinter</li>
                     <li>Implémentation de l'injection parallélisée avec multiprocessing</li>
                     <li>Stockage en base des statuts d'injection</li>
-                    <li></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <p>Maintenance des packages internes</p>
+                  <ul>
+                    <li>Compression/Décompression automatiquement des fichiers avant upload/download</li>
+                    <li>Correction de bugs divers</li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <p>Développement du process de labelling géolocalisation</p>
+                  <ul>
+                    <li>Lecture et formatage des données GPS collectées</li>
+                    <li>Détection des Points Of Interest traversés</li>
                   </ul>
                 </li>
               </ul>
@@ -140,6 +157,7 @@
               <div class="techtag">Swagger</div>
               <div class="techtag">Gitlab-CI</div>
               <div class="techtag">AWS S3</div>
+              <div class="techtag">LSF IBM</div>
               <div class="techtag">Linux</div>
               <div class="techtag">Windows</div>
             </div>
@@ -170,7 +188,11 @@
                 </li>
               </ul>
               <div class="techtag">Python</div>
-              <div class="techtag">AWS (CloudFormation, SAM)</div>
+              <div class="techtag">AWS CloudFormation</div>
+              <div class="techtag">AWS Lambda</div>
+              <div class="techtag">AWS API Gateway</div>
+              <div class="techtag">AWS SAM</div>
+              <div class="techtag">AWS Cognito</div>
               <div class="techtag">Gitlab-CI</div>
               <div class="techtag">Flake8</div>
               <div class="techtag">MacOS</div>
@@ -253,6 +275,8 @@
               <div class="techtag">Python</div>
               <div class="techtag">Cerberus</div>
               <div class="techtag">AWS CloudFormation</div>
+              <div class="techtag">AWS Lambda</div>
+              <div class="techtag">AWS API Gateway</div>
               <div class="techtag">AWS DynamoDB</div>
               <div class="techtag">AWS SAM</div>
               <div class="techtag">AWS Cognito</div>
@@ -395,7 +419,7 @@
               <ul>
                 <li>Développement d’une fonctionnalité d’import de fichiers excel de consommations pour intégration dans la plateforme à l’aide d’une librairie de mapping excel - objet</li>
                 <li>Développement d’un module de prévision de consommation avec Weka, une librairie de Machine Learning</li>
-                <li>Extension de la documentation de la plateforme, rédaction d’API Doc en yml avec Swagger</li>
+                <li>Extension de la documentation de la plateforme, rédaction d’API Doc en yaml avec Swagger</li>
                 <li>Maintenance de services existants en Java Spring</li>
                 <li>Rédaction de Dockerfiles</li>
               </ul>
@@ -754,7 +778,7 @@
                 <div class="progress">
                   <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <span>JavaScript <i class="fa-brands fa-javascript"></i></span>
+              <span>JavaScript <i class="fa-brands fa-js"></i></span>
               <div class="progress">
                 <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
@@ -909,7 +933,7 @@
         <div class="row " data-aos="fade-in">
 
           <div class="col-lg-8 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://forms.un-static.com/forms/9c7c112c4b646410e2f586608cf490849b71a748" method="post" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Votre nom</label>
@@ -952,13 +976,13 @@
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email</h4>
-                <p>work@salembenmabrouk.com</p>
+                <img src="assets/img/imael.png" alt="" class="pt-3 img-fluid">
               </div>
 
               <div class="phone" hidden>
                 <i class="bi bi-phone"></i>
-                <h4>Call</h4>
-                <p>+1 5589 55488 55s</p>
+                <h4>Numéro de téléphone</h4>
+                <p>+33 6 78 90 12 34</p>
               </div>
               <iframe hidden src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.484450501164!2d2.1982179160197615!3d48.8871039292903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6649a85e8b6c1%3A0x546645f9a16df1a7!2sPlace%20de%20la%20Boule%2C%2092000%20Nanterre!5e0!3m2!1sfr!2sfr!4v1645381059621!5m2!1sfr!2sfr" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
@@ -982,7 +1006,7 @@
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrap made.com/iportfolio-bootstrap-portfolio-websites-template/ -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
