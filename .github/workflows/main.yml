@@ -19,7 +19,7 @@ jobs:
       id: sitemap
       uses: cicirello/generate-sitemap@v1.8.0
       with:
-        base-url-path: https://benmabrouksalem.com
+        base-url-path: https://salembenmabrouk.com
 
     - name: Output stats
       run: |
