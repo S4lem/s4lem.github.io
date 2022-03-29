@@ -19,7 +19,8 @@ jobs:
       id: sitemap
       uses: cicirello/generate-sitemap@v1.8.0
       with:
-        base-url-path: https://salembenmabrouk.com
+        base-url-path: https://salembenmabrouk.com/
+        include-pdf: false
 
     - name: Output stats
       run: |
